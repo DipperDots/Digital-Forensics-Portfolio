@@ -1,9 +1,15 @@
 # Digital-Forensics-Portfolio
 # About Me: 
-A 3-4 sentence summary of your background, your college certificate, and your career objective in digital forensics.
+Entry-level digital forensics professional with federal investigative experience supporting the USPS Office of Inspector General through a cooperative program. 
+Holds a Master of Arts and Bachelor of Arts in International Affairs and a Cybersecurity Graduate Certificate from the University of North Georgia, with a foundation in digital evidence analysis, network security principles, and ethical considerations.
+Experienced in applying digital forensics tools such as Cellebrite, FTK Imager - Autopsy, Paraben E3, and DiskDigger to support criminal and administrative investigations across Windows, macOS, and Linux environments in academic scenarios and real-world application. Proven ability to produce clear investigative reports, interview summaries, and activity documentation in support of active cases, allegations, and proactive initiatives.
+Seeks to contribute analytical, technical, and research-driven skills in a federal investigative role in service of public trust and national interests.
 
 # Technical Toolkit:
-A scannable list of tools you are proficient in (e.g., Autopsy, FTK Imager, Wireshark, Volatility, CAINE Linux).
+- Autopsy
+- FTK Imager
+- Wireshark
+- Kali Linux
 
 # Core Competencies:
 - Disk Imaging
