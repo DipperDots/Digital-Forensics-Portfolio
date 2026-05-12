@@ -1,0 +1,13 @@
+# Scenario & Objective: What was the simulated incident? (e.g., "Investigating a suspected insider threat who exfiltrated sensitive data before resigning.")
+
+# Evidence Acquired: List the files you analyzed (e.g., "Windows 10 E01 disk image, memdump.raw memory capture"), including their MD5/SHA-256 hashes to prove you understand evidence integrity.
+
+# Tools Used: Mention the specific tools used for this case (e.g., "Autopsy for disk analysis, Volatility for RAM").
+
+# Investigation & Analysis: * Walk through your process step-by-step.
+
+Use screenshots (redacting any sensitive info if applicable).
+
+Show how you found the artifacts. Don't just say "I found the deleted file." Say: "Using Autopsy, I parsed the $MFT (Master File Table) and identified a deleted PDF in the user's Downloads directory."
+
+# Executive Summary / Findings: A 1-paragraph summary written for non-technical readers explaining exactly what happened.
