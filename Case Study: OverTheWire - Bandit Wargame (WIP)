@@ -1,10 +1,13 @@
 # Scenario & Objective: What was the simulated incident? (e.g., "Investigating a suspected insider threat who exfiltrated sensitive data before resigning.")
+A wargame in which I access several layers of a system to uncover passwords intentionally buried within a hosted machine.
 
 # Evidence Acquired: List the files you analyzed (e.g., "Windows 10 E01 disk image, memdump.raw memory capture"), including their MD5/SHA-256 hashes to prove you understand evidence integrity.
 
 # Tools Used: Mention the specific tools used for this case (e.g., "Autopsy for disk analysis, Volatility for RAM").
+Terminal commands to access hosted machine via SSH.
 
 # Investigation & Analysis: * Walk through your process step-by-step.
+
 
 Use screenshots (redacting any sensitive info if applicable).
 
