@@ -2,6 +2,7 @@
 A wargame in which I access several layers of a system to uncover passwords intentionally buried within a hosted machine.
 
 # Evidence Acquired: List the files you analyzed (e.g., "Windows 10 E01 disk image, memdump.raw memory capture"), including their MD5/SHA-256 hashes to prove you understand evidence integrity.
+Multiple passwords were discovered to access the next level; Listing the passwords here is against the policy of OverTheWire.
 
 # Tools Used: Mention the specific tools used for this case (e.g., "Autopsy for disk analysis, Volatility for RAM").
 Terminal commands to access hosted machine via SSH.
