@@ -1,19 +1,18 @@
 # Scenario & Objective: 
----
 The simulation is a wargame in which I must access several layers of a system to uncover passwords intentionally buried within a hosted machine via SSH.
 [Wargame Link: OverTheWire - Bandit](https://overthewire.org/wargames/bandit/)
 
 # Evidence Acquired:
----
+
 Multiple passwords were discovered to access the next level; Though I'd like to prove my understanding of evidence integrity, listing the passwords or the files' MD5/SHA_256 hashes publicly is against the policy of OverTheWire, as the challenge must remain challenging for future participants.
 From levels 1-6, most files that held the password were text documents.
 
 # Tools Used: 
----
+
 Terminal commands to access the hosted machine via SSH.
 
 # Investigation & Analysis:
----
+
 Level0 entry : User login information for SSH access was provided to begin the wargame.
 
 level1 entry: Username provided, but password was not. This will be the case for the remainder of the levels.
@@ -66,7 +65,6 @@ level6 entry:
 level7 entry: WIP!
 
 Use screenshots (redacting any sensitive info if applicable).
-
 Show how you found the artifacts. Don't just say "I found the deleted file." Say: "Using Autopsy, I parsed the $MFT (Master File Table) and identified a deleted PDF in the user's Downloads directory."
 
 # Executive Summary / Findings:
