@@ -1,13 +1,21 @@
-# Scenario & Objective: What was the simulated incident? (e.g., "Investigating a suspected insider threat who exfiltrated sensitive data before resigning.")
+# Scenario & Objective: 
+What was the simulated incident? (e.g., "Investigating a suspected insider threat who exfiltrated sensitive data before resigning.")
+
 A wargame in which I access several layers of a system to uncover passwords intentionally buried within a hosted machine.
 
-# Evidence Acquired: List the files you analyzed (e.g., "Windows 10 E01 disk image, memdump.raw memory capture"), including their MD5/SHA-256 hashes to prove you understand evidence integrity.
+# Evidence Acquired: 
+List the files you analyzed (e.g., "Windows 10 E01 disk image, memdump.raw memory capture"), including their MD5/SHA-256 hashes to prove you understand evidence integrity.
+
 Multiple passwords were discovered to access the next level; Listing the passwords here is against the policy of OverTheWire.
 
-# Tools Used: Mention the specific tools used for this case (e.g., "Autopsy for disk analysis, Volatility for RAM").
+# Tools Used: 
+Mention the specific tools used for this case (e.g., "Autopsy for disk analysis, Volatility for RAM").
+
 Terminal commands to access hosted machine via SSH.
 
-# Investigation & Analysis: * Walk through your process step-by-step.
+# Investigation & Analysis:
+Walk through your process step-by-step.
+
 Level0 entry : User login information for SSH access was provided to begin the wargame.
 
 level1 entry: Username provided, but password was not. This will be the case for the remainder of the levels.
@@ -63,4 +71,7 @@ Use screenshots (redacting any sensitive info if applicable).
 
 Show how you found the artifacts. Don't just say "I found the deleted file." Say: "Using Autopsy, I parsed the $MFT (Master File Table) and identified a deleted PDF in the user's Downloads directory."
 
-# Executive Summary / Findings: A 1-paragraph summary written for non-technical readers explaining exactly what happened.
+# Executive Summary / Findings:
+A 1-paragraph summary written for non-technical readers explaining exactly what happened.
+
+WIP!
