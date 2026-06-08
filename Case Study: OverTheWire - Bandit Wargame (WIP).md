@@ -1,18 +1,16 @@
 # Scenario & Objective: 
-What was the simulated incident? (e.g., "Investigating a suspected insider threat who exfiltrated sensitive data before resigning.")
-
-A wargame in which I access several layers of a system to uncover passwords intentionally buried within a hosted machine.
+---
+The simulation is a wargame in which I must access several layers of a system to uncover passwords intentionally buried within a hosted machine via SSH.
 [Wargame Link: OverTheWire - Bandit](https://overthewire.org/wargames/bandit/)
 
 # Evidence Acquired:
-List the files you analyzed (e.g., "Windows 10 E01 disk image, memdump.raw memory capture"), including their MD5/SHA-256 hashes to prove you understand evidence integrity.
-
-Multiple passwords were discovered to access the next level; Listing the passwords or the files' MD5/SHA_256 hashes publicly is against the policy of OverTheWire, as the challenge must remain challenging for future participants.
+---
+Multiple passwords were discovered to access the next level; Though I'd like to prove my understanding of evidence integrity, listing the passwords or the files' MD5/SHA_256 hashes publicly is against the policy of OverTheWire, as the challenge must remain challenging for future participants.
 From levels 1-6, most files that held the password were text documents.
 
 # Tools Used: 
 ---
-Terminal commands to access hosted machine via SSH.
+Terminal commands to access the hosted machine via SSH.
 
 # Investigation & Analysis:
 ---
