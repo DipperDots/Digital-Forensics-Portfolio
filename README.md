@@ -20,3 +20,4 @@ Seeks to contribute analytical, technical, and research-driven skills in a feder
 
 # Hands-On Projects & Case Studies:
 The most important section. This links directly to your detailed case write-ups.
+Case Study: OverTheWire - Bandit Wargame (WIP)
