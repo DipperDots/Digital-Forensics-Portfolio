@@ -1,5 +1,5 @@
 # Scenario & Objective: 
-The simulation is a wargame in which I must access several layers of a system to uncover passwords intentionally buried within a hosted machine via SSH.
+The simulation is a wargame in which I must access several layers of a Unix/Linux system to uncover passwords intentionally buried within a hosted machine via SSH. It is meant to enforce a basic understanding of Linux systems.
 [Wargame Link: OverTheWire - Bandit](https://overthewire.org/wargames/bandit/)
 
 # Evidence Acquired:
