@@ -62,7 +62,21 @@ level6 entry:
 - The file that matches this size appears! Use cat ./[file name] to read it.
 - The password appears!
 
-level7 entry: WIP!
+level7 entry:
+- This one was tougher, as bandit6 did not have any directories to go to.
+- The requirements:
+    owned by user bandit7
+    owned by group bandit6
+    33 bytes in size
+- To better understand this one, I had to look it up and reverse engineer what I was seeing.
+- First, cd / to ensure I'm in the root directory.
+- Then, I used "find . -size 33c -user bandit7 -group bandit6 | grep bandit7"
+- This would generate a list of many paths of things 33 bytes in size within the current directory owned by bandit7 and bandit6 that I could not access thanks to permissions being denied, but using "grep" emphasizes entries in the list that match the provided string "bandit7", which revealed a directory path to a document name that read "bandit7.password".
+- Then I used "cat [copied revealed path to bandit7.password]" to then print the password out.
+- The password appears!
+
+level8 entry:
+- WIP!
 
 Use screenshots (redacting any sensitive info if applicable).
 Show how you found the artifacts. Don't just say "I found the deleted file." Say: "Using Autopsy, I parsed the $MFT (Master File Table) and identified a deleted PDF in the user's Downloads directory."
