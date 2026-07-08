@@ -21,4 +21,4 @@ This quickly resulted in multiple issues that had to be managed:
 
 # Executive Summary:
 As a means to freshen up my tech-savvy nature and help my family at the same time, I decided to run a Jellyfin server with our personal media collection for a variety of devices, including desktops running Windows, an ROG Ally Z1E running a Bazzite distro, and an LG TV running WebOS.
-What began as an interesting idea became a daunting task very quickly thanks to multiple technological hiccups, lengthy media conversion processes, Raspbian OS quirks, and network configuration hurdles, ending in a server that works astonishingly well with polish and technical compentency comparable to a name-brand streaming service.
+What began as an interesting idea very quickly became a daunting task thanks to multiple technological hiccups, from lengthy media conversion processes, Raspbian OS quirks, and network configuration hurdles. The result was a fully functional media server that works astonishingly well with polish and technical compentency comparable to a name-brand streaming service.
