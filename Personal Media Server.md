@@ -1,12 +1,6 @@
 # Scenario & Objective:
 Develop and maintain a personal media server to play personal media across 4 devices for my local network utilizing legal open source software and methods.
 
-level1 entry: Username provided, but password was not. This will be the case for the remainder of the levels.
-- Used ls to list out directory contents
-- Used file readme to see the file type of the contents
-- Used cat [file name] to print out the text of the file's contents
-- The password appears!
-
 # Tools Used:
 - MakeMKV BETA
 - BD-RE Matshita BD-MLT Disc Drive
