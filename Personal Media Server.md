@@ -16,7 +16,7 @@ In order to run a Jellyfin server for a variety of devices - including desktops 
 
 This quickly resulted in multiple issues that had to be managed:
 1) The Raspberry Pi 5 needs an external storage solution to keep terabytes of media. This was mediated by repurposing an internal Seagate 2TB Barracuda HDD within an external HDD enclosure.
-2) The operating system flashed on this system, the Debian Linux-based distro Raspbian OS, requires permissions to be set in order to read from a HDD/SSD that is by default formatted to Windows read/write formats (NTFS, exFAT, or FAT32).
+2) The operating system flashed on this system, the Debian Linux-based distro Raspberry Pi OS, requires permissions to be set in order to read from a HDD/SSD that is by default formatted to Windows read/write formats (NTFS, exFAT, or FAT32).
 3) The Raspberry Pi 5 runs every process through its CPU, resulting in bottlenecks without enough RAM or a GPU to aid its processing.
 4) The Raspberry Pi 5 requires a static network for easier functionality when running Jellyfin as a Service rather than as a normal program.
 5) The Raspberry Pi 5 cannot enable hardware acceleration.
