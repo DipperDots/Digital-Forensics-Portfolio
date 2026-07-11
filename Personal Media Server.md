@@ -29,7 +29,7 @@ Migrating from the Raspberry Pi 5 to the Lenovo ideapad 5 resulted in many upgra
 2) Configuring the Jellyfin server within the Windows environment was much simpler in hindsight.
 3) Organizing the media libraries required I migrate my media files previously housed in the internal Seagate 2TB Barracuda HDD housed in an external enclosure into a new 4TB Seagate Expansion HDD; Not only did this increase the storage space, but also ensured peace of mind due to the age of the 2TB HDD, which had migrated from multiple PC rigs over the years.
 ---
-To ensure this media server is protected from compromise or intrustion, I did the following:
+To ensure this media server is protected from compromise or intrusion, I did the following:
 1) Ensured there would be no user list visible from the login screen, forcing each user to login with their respective usernames and passwords.
 2) Enabled temporary account lockouts after 3 failed login attempts as a means to disrupt brute-force attempts.
 3) Disabled most user permissions and kept administration permissions within my admin account.
