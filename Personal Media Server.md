@@ -4,6 +4,7 @@ Develop and maintain a personal media server to play personal media across 4 dev
 # Tools Used:
 - MakeMKV BETA
 - BD-RE Matshita BD-MLT Disc Drive
+- Caddy (for reverse proxy service)
 - Jellyfin (Windows Server; Clients for WebOS, Windows, and Linux)
 - Seagate 2TB Barracuda HDD (internal HDD originally used for storage, later swapped out)
 - Inland 3.5" External SATA USB 3.0 HDD Enclosure (intended for Barracuda HDD) 
