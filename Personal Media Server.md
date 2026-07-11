@@ -38,8 +38,8 @@ To ensure this media server is protected from compromise or intrusion, I did the
 4) Developed a reverse proxy specifically for the media server to ensure security and good performance.
 ---
 Setting up the reverse proxy took multiple steps:
-1) Setting up Caddy
-2) Setting up Ducky DNS
+1) Setting up Caddy on my host machine rather than my main PC
+2) Setting up Ducky DNS on my host machine
 3) ...
 
 # Executive Summary:
