@@ -23,6 +23,6 @@ The most important section. This links directly to your detailed case write-ups.
 
 [Case Study: OverTheWire - Bandit Wargame (WIP)](https://github.com/DipperDots/Digital-Forensics-Portfolio/blob/main/Jeopardy-style%20CTF%3A%20OverTheWire%20-%20Bandit%20(WIP).md)
 
-[Documentation: Personal Jellyfin Server](https://github.com/DipperDots/Digital-Forensics-Portfolio/blob/main/Personal%20Media%20Server.md)
+[Documentation: Personal Media Server](https://github.com/DipperDots/Digital-Forensics-Portfolio/blob/main/Personal%20Media%20Server.md)
 
 <!-- [Documentation: Defense Home Lab Construction (WIP)] -->
