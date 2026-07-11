@@ -5,6 +5,7 @@ Develop and maintain a personal media server to play personal media across 4 dev
 - MakeMKV BETA
 - BD-RE Matshita BD-MLT Disc Drive
 - Caddy (for reverse proxy service)
+- Ducky DNS
 - Jellyfin (Windows Server; Clients for WebOS, Windows, and Linux)
 - Seagate 2TB Barracuda HDD (internal HDD originally used for storage, later swapped out)
 - Inland 3.5" External SATA USB 3.0 HDD Enclosure (intended for Barracuda HDD) 
@@ -37,8 +38,9 @@ To ensure this media server is protected from compromise or intrusion, I did the
 4) Developed a reverse proxy specifically for the media server to ensure security and good performance.
 ---
 Setting up the reverse proxy took multiple steps:
-1) Setting up Caddy specifically for LAN access; No Remote Access
-2) ...
+1) Setting up Caddy
+2) Setting up Ducky DNS
+3) ...
 
 # Executive Summary:
 As a means to freshen up my tech-savvy nature and help my family at the same time, I decided to run a Jellyfin server with our personal media collection for a variety of devices, including desktops running Windows, an ROG Ally Z1E running a Bazzite distro, and an LG TV running WebOS. What began as an interesting idea very quickly became a daunting task thanks to multiple technological hiccups, from lengthy media conversion processes, Raspbian OS quirks, and network configuration hurdles. The result was a fully functional media server that works astonishingly well with polish and technical compentency comparable to a name-brand streaming service.
