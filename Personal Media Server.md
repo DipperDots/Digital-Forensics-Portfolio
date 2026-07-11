@@ -21,13 +21,18 @@ This quickly resulted in multiple issues that had to be managed:
 4) The Raspberry Pi 5 requires a static network for easier functionality when running Jellyfin as a Service rather than as a normal program.
 5) The Raspberry Pi 5 cannot enable hardware acceleration.
 Each of these issues made the utility of the Raspberry Pi 5 as a Jellyfin server largely unfeasible, as the single-board system can't consistently play lengthy high-definition media on multiple devices without bottlenecking or artificating the video playback. Though it could serve to play lower-resolution titles and shorter episodes for one device without buffering, the goal is for the server to play on multiple devices with high resolutions, which this single-board system cannot do.
-
+---
 Pivoting from the Raspberry Pi 5, I decided to repurpose a Lenovo ideapad 5 that I've used as a college laptop for 6+ years. As it had no real use once I graduated, it was time to give the system a new purpose in life.
 
 Migrating from the Raspberry Pi 5 to the Lenovo ideapad 5 resulted in many upgrades:
 1) To ensure that I don't cause a lithium-battery disaster in the longrun, I removed the battery from the laptop system and connected it to its charger, making it a permanent fixture.
 2) Configuring the Jellyfin server within the Windows environment was much simpler in hindsight.
 3) Organizing the media libraries required I migrate my media files previously housed in the internal Seagate 2TB Barracuda HDD housed in an external enclosure into a new 4TB Seagate Expansion HDD; Not only did this increase the storage space, but also ensured peace of mind due to the age of the 2TB HDD, which had migrated from multiple PC rigs over the years.
+---
+To ensure this media server is protected from compromise or intrustion, I did the following:
+1) Ensured there would be no user list visible from the login screen, forcing each user to login with their respective usernames and passwords.
+2) Enabled temporary account lockouts after 3 failed login attempts as a means to disrupt brute-force attempts.
+3) Disabled most user permissions and kept administration permissions within my admin account.
 
 # Executive Summary:
 As a means to freshen up my tech-savvy nature and help my family at the same time, I decided to run a Jellyfin server with our personal media collection for a variety of devices, including desktops running Windows, an ROG Ally Z1E running a Bazzite distro, and an LG TV running WebOS. What began as an interesting idea very quickly became a daunting task thanks to multiple technological hiccups, from lengthy media conversion processes, Raspbian OS quirks, and network configuration hurdles. The result was a fully functional media server that works astonishingly well with polish and technical compentency comparable to a name-brand streaming service.
