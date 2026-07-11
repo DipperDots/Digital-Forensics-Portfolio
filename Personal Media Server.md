@@ -34,6 +34,10 @@ To ensure this media server is protected from compromise or intrusion, I did the
 2) Enabled temporary account lockouts after 3 failed login attempts as a means to disrupt brute-force attempts.
 3) Disabled most user permissions and kept administration permissions within my admin account.
 4) Developed a reverse proxy specifically for the media server to ensure security and good performance.
+---
+Setting up the reverse proxy took multiple steps:
+1) Setting up Caddy specifically for LAN access; No Remote Access
+2) ...
 
 # Executive Summary:
 As a means to freshen up my tech-savvy nature and help my family at the same time, I decided to run a Jellyfin server with our personal media collection for a variety of devices, including desktops running Windows, an ROG Ally Z1E running a Bazzite distro, and an LG TV running WebOS. What began as an interesting idea very quickly became a daunting task thanks to multiple technological hiccups, from lengthy media conversion processes, Raspbian OS quirks, and network configuration hurdles. The result was a fully functional media server that works astonishingly well with polish and technical compentency comparable to a name-brand streaming service.
