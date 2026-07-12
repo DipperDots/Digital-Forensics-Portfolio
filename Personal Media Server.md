@@ -5,7 +5,8 @@ Develop and maintain a personal media server to play personal media across 4 dev
 - MakeMKV BETA
 - BD-RE Matshita BD-MLT Disc Drive
 - Caddy (for reverse proxy service)
-- Ducky DNS
+- Ducky DNS (for reverse proxy service)
+- TailsGate (for meshVPN service)
 - Jellyfin (Windows Server; Clients for WebOS, Windows, and Linux)
 - Seagate 2TB Barracuda HDD (internal HDD originally used for storage, later swapped out)
 - Inland 3.5" External SATA USB 3.0 HDD Enclosure (intended for Barracuda HDD) 
@@ -41,6 +42,13 @@ Developing a Reverse Proxy for the media server ensured the following:
 1) Setting up Caddy on my server host machine provides automatic HTTPS for the server, rather than sticking with the default and more accessible open port.
 2) Caddy ensures better management of the server's web services and routing traffic.
 3) Setting up Ducky DNS - a free DDNS service, maintains my server subdomain's relationship with my dynamic IP address. This ensures I maintain uninterrupted access while keeping the connection secure.
-
+Though this proved to be efficient, I thought about the scale of my server and what I wanted to do with it, leading me to reconsider my methodology.
+Since access to this media server would not be shared with the public, why would I need to develop a reverse proxy method for others to attatch to the designated open ports of my server?
+Why not just utilize a meshVPN through TailsGate so that only dedicated devices/users can access the server directly without having to make special Port Forwarding rules on my router?
+---
+Pivoting to TailsGate and its MeshVPN capabilites provided the following:
+1) fdsfds
+2) fdsfds
+---
 # Executive Summary:
 As a means to freshen up my tech-savvy nature and help my family at the same time, I decided to run a Jellyfin server with our personal media collection for a variety of devices, including desktops running Windows, an ROG Ally Z1E running a Bazzite distro, and an LG TV running WebOS. What began as an interesting idea very quickly became a daunting task thanks to multiple technological hiccups, from lengthy media conversion processes, Raspbian OS quirks, and network configuration hurdles. The result was a fully functional media server that works astonishingly well with polish and technical compentency comparable to a name-brand streaming service.
