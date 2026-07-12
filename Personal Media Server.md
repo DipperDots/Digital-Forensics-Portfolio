@@ -49,8 +49,8 @@ Why not just utilize a mesh VPN through TailsGate so that only dedicated devices
 
 ---
 Pivoting to TailsGate and its mesh VPN capabilites provided the following:
-1) My router didn't need to expose any inbound ports for my devices to connect to my media server.
-2) I can monitor each device that seeks to connect to the media server by authorizing each device from my TailsGate console; Only those that I personally set up can access the server.
+1) My router no longer to expose any inbound ports for devices to connect to my media server.
+2) I can monitor each device that seeks to connect to the media server by viewing my TailsGate console; Only those devices that I personally set up can access the server.
 ---
 # Executive Summary:
 As a means to freshen up my tech-savvy nature and help my family at the same time, I decided to run a Jellyfin server with our personal media collection for a variety of devices, including desktops running Windows, an ROG Ally Z1E running a Bazzite distro, and an LG TV running WebOS. What began as an interesting idea very quickly became a daunting task thanks to multiple technological hiccups, from lengthy media conversion processes, Raspbian OS quirks, and network configuration hurdles. The result was a fully functional media server that works astonishingly well with polish and technical compentency comparable to a name-brand streaming service.
