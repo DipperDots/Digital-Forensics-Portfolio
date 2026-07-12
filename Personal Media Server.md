@@ -44,12 +44,12 @@ Developing a Reverse Proxy for the media server ensured the following:
 3) Setting up Ducky DNS - a free DDNS service, maintains my server subdomain's relationship with my dynamic IP address. This ensures I maintain uninterrupted access while keeping the connection secure.
 <p>
 Though this proved to be efficient, I thought about the scale of my server and what I wanted to do with it, leading me to reconsider my methodology.
-Since access to this media server would not be shared with the public, why would I need to develop a reverse proxy method for others to attatch to the designated open ports of my server?
+Since access to this media server would not be shared with the public, why would I need to develop a reverse proxy method for others to attatch to designated open web ports?
 Why not just utilize a mesh VPN through TailsGate so that only dedicated devices/users can access the server directly without having to make special Port Forwarding rules on my router?</p>
 
 ---
 Pivoting to TailsGate and its mesh VPN capabilites provided the following:
-1) My router no longer to expose any inbound ports for devices to connect to my media server.
+1) My router no longer to expose any inbound web ports for devices to connect to my media server.
 2) I can monitor each device that seeks to connect to the media server by viewing my TailsGate console; Only those devices that I personally set up can access the server.
 ---
 # Executive Summary:
