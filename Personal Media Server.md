@@ -23,6 +23,7 @@ This quickly resulted in multiple issues that had to be managed:
 3) The Raspberry Pi 5 runs every process through its CPU, resulting in bottlenecks without enough RAM or a GPU to aid its processing.
 4) The Raspberry Pi 5 requires a static network for easier functionality when running Jellyfin as a Service rather than as a normal program.
 5) The Raspberry Pi 5 cannot enable hardware acceleration.
+   
 Each of these issues made the utility of the Raspberry Pi 5 as a Jellyfin server largely unfeasible, as the single-board system can't consistently play lengthy high-definition media on multiple devices without bottlenecking or artificating the video playback. Though it could serve to play lower-resolution titles and shorter episodes for one device without buffering, the goal is for the server to play on multiple devices with high resolutions, which this single-board system cannot do.
 ---
 Pivoting from the Raspberry Pi 5, I decided to repurpose a Lenovo ideapad 5 that I've used as a college laptop for 6+ years. As it had no real use once I graduated, it was time to give the system a new purpose in life.
@@ -42,6 +43,7 @@ Developing a Reverse Proxy for the media server ensured the following:
 1) Setting up Caddy on my server host machine provides automatic HTTPS for the server, rather than sticking with the default and more accessible open port.
 2) Caddy ensures better management of the server's web services and routing traffic.
 3) Setting up Ducky DNS - a free DDNS service, maintains my server subdomain's relationship with my dynamic IP address. This ensures I maintain uninterrupted access while keeping the connection secure.
+   
 Though this proved to be efficient, I thought about the scale of my server and what I wanted to do with it, leading me to reconsider my methodology.
 Since access to this media server would not be shared with the public, why would I need to develop a reverse proxy method for others to attatch to the designated open ports of my server?
 Why not just utilize a meshVPN through TailsGate so that only dedicated devices/users can access the server directly without having to make special Port Forwarding rules on my router?
