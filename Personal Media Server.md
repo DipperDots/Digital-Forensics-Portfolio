@@ -6,7 +6,7 @@ Develop and maintain a personal media server to play personal media across 4 dev
 - BD-RE Matshita BD-MLT Disc Drive
 - Caddy (for reverse proxy service)
 - Ducky DNS (for reverse proxy service)
-- TailsGate (for meshVPN service)
+- Tailscale (for meshVPN service)
 - Jellyfin (Windows Server; Clients for WebOS, Windows, and Linux)
 - Seagate 2TB Barracuda HDD (internal HDD originally used for storage, later swapped out)
 - Inland 3.5" External SATA USB 3.0 HDD Enclosure (intended for Barracuda HDD) 
@@ -48,9 +48,9 @@ Since access to this media server would not be shared with the public, why would
 Why not just utilize a mesh VPN through TailsGate so that only dedicated devices/users can access the server directly without having to make special Port Forwarding rules on my router?</p>
 
 ---
-Pivoting to TailsGate and its mesh VPN capabilites provided the following:
+Pivoting to Tailscale and its mesh VPN capabilites provided the following:
 1) My router no longer to expose any inbound web ports for devices to connect to my media server.
-2) I can monitor each device that seeks to connect to the media server by viewing my TailsGate console; Only those devices that I personally set up can access the server.
+2) I can monitor each device that seeks to connect to the media server by viewing my Tailscale console; Only those devices that I personally set up can access the server.
 ---
 # Executive Summary:
-As a means to freshen up my tech-savvy nature and help my family at the same time, I decided to run a Jellyfin server with our personal media collection for a variety of devices, including desktops running Windows, an ROG Ally Z1E running a Bazzite distro, and an LG TV running WebOS. What began as an interesting idea very quickly became a daunting task thanks to multiple technological hiccups, from lengthy media conversion processes, Raspbian OS quirks, and network configuration hurdles. The result was a fully functional media server that works astonishingly well with polish and technical compentency comparable to a name-brand streaming service.
+As a means to freshen up my tech-savvy nature and help my family at the same time, I decided to run a Jellyfin server with our personal media collection for a variety of devices, including desktops running Windows, an ROG Ally Z1E running a Bazzite distro, and an LG TV running WebOS. What began as an interesting idea very quickly became a daunting task thanks to multiple technological hiccups, from lengthy media conversion processes, Raspberry Pi OS quirks, and network protection configuration hurdles. The result was a fully functional media server that works astonishingly well with polish and technical compentency comparable to a name-brand streaming service that is protected by robust network security methods.
