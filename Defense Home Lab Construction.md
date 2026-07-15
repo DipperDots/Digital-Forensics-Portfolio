@@ -1,5 +1,5 @@
 # Scenario & Objective:
-Develop and maintain a personal cybersecurity homelab for my local network utilizing legal open source software and methods.
+Develop and maintain a personal cybersecurity homelab for to hone cybersecurity skills in Security Information and Event Management (SIEM), Security Operations Center (SOC), Endpoint Detection and Response (EDR), and Vulnerability Management.
 
 # Tools Used:
 - Oracle VirtualBox
@@ -11,9 +11,9 @@ Develop and maintain a personal cybersecurity homelab for my local network utili
 - Ubuntu Desktop (Target 2)
 
 # Process:
-<!-- In order to run a Jellyfin server for a variety of devices - including desktops running Windows, an ROG Ally Z1E running a Bazzite distro, and an LG TV running WebOS, I originally planned to host the Jellyfin server on a dedicated Raspberry Pi 5.
+In order to run a home lab to exercise cybersecurity practices, I needed to develop an isolated sandbox to perform actions that mimic various cyberattacks and exploits without harming my devices or network. This sandbox will allow me to hone my skills in SIEM, SOC, EDR, and Vulnerability Management.
 
-This quickly resulted in multiple issues that had to be managed:
+This sandbox is composed of the following:
 1) The Raspberry Pi 5 needs an external storage solution to keep terabytes of media. This was mediated by repurposing an internal Seagate 2TB Barracuda HDD within an external HDD enclosure.
 2) The operating system flashed on this system, the Debian Linux-based distro Raspberry Pi OS, requires permissions to be set in order to read from a HDD/SSD that is by default formatted to Windows read/write formats (NTFS, exFAT, or FAT32).
 3) The Raspberry Pi 5 runs every process through its CPU, resulting in bottlenecks without enough RAM or a GPU to aid its processing.
@@ -21,7 +21,7 @@ This quickly resulted in multiple issues that had to be managed:
 5) The Raspberry Pi 5 cannot enable hardware acceleration.
 Each of these issues made the utility of the Raspberry Pi 5 as a Jellyfin server largely unfeasible, as the single-board system can't consistently play lengthy high-definition media on multiple devices without bottlenecking or artificating the video playback. Though it could serve to play lower-resolution titles and shorter episodes for one device without buffering, the goal is for the server to play on multiple devices with high resolutions, which this single-board system cannot do.
 
-Pivoting from the Raspberry Pi 5, I decided to repurpose a Lenovo ideapad 5 that I've used as a college laptop for 6+ years. As it had no real use once I graduated, it was time to give the system a new purpose in life.
+<!-- Pivoting from the Raspberry Pi 5, I decided to repurpose a Lenovo ideapad 5 that I've used as a college laptop for 6+ years. As it had no real use once I graduated, it was time to give the system a new purpose in life.
 
 Migrating from the Raspberry Pi 5 to the Lenovo ideapad 5 resulted in many upgrades:
 1) To ensure that I don't cause a lithium-battery disaster in the longrun, I removed the battery from the laptop system and connected it to its charger, making it a permanent fixture.
