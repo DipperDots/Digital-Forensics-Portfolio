@@ -2,14 +2,13 @@
 Develop and maintain a personal cybersecurity homelab for my local network utilizing legal open source software and methods.
 
 # Tools Used:
-<!-- - MakeMKV BETA
-- BD-RE Matshita BD-MLT Disc Drive
-- Jellyfin (Windows Server; Clients for WebOS, Windows, and Linux)
-- Seagate 2TB Barracuda HDD (internal HDD originally used for storage, later swapped out)
-- Inland 3.5" External SATA USB 3.0 HDD Enclosure (intended for Barracuda HDD) 
-- Seagate Expansion 4TB HDD (external HDD for storage)
-- Lenovo ideapad 5 laptop (battery removed, dedicated host of server)
-- Raspberry Pi 5 4GB (original host of server, later swapped out) -->
+- Oracle VirtualBox
+- Kali Linux (Attacker)
+- Ubuntu 26.04 Live Server (Defense)
+  - Wazuh & Splunk (Free Enterprise) SIEM
+- Windows 11 Enterprise (Target 1)
+  - Wazuh & Sysmon 
+- Ubuntu Desktop (Target 2)
 
 # Process:
 <!-- In order to run a Jellyfin server for a variety of devices - including desktops running Windows, an ROG Ally Z1E running a Bazzite distro, and an LG TV running WebOS, I originally planned to host the Jellyfin server on a dedicated Raspberry Pi 5.
