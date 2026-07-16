@@ -45,7 +45,7 @@ Developing a Reverse Proxy for the media server ensured the following:
 <p>
 Though this proved to be efficient, I thought about the scale of my server and what I wanted to do with it, leading me to reconsider my methodology.
 Since access to this media server would not be shared with the public, why would I need to develop a reverse proxy method for others to attatch to designated open web ports?
-Why not just utilize a mesh VPN through TailsGate so that only dedicated devices/users can access the server directly without having to make special Port Forwarding rules on my router?</p>
+Why not just utilize a mesh VPN through Tailscale so that only dedicated devices/users can access the server directly without having to make special Port Forwarding rules on my router?</p>
 
 ---
 Pivoting to Tailscale and its mesh VPN capabilites provided the following:
