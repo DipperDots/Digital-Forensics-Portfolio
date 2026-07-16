@@ -1,5 +1,5 @@
 # Scenario & Objective:
-Develop and maintain a personal media server to play personal media across 4 devices for my local network utilizing legal open source software and methods.
+Develop and maintain a personal media server to play media across multiple devices for my local network utilizing legal open source software and methods.
 
 # Tools Used:
 - MakeMKV BETA
