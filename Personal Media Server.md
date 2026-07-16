@@ -49,8 +49,8 @@ Why not just utilize a mesh VPN through Tailscale so that only dedicated devices
 
 ---
 Pivoting to Tailscale and its mesh VPN capabilites provided the following:
-1) My router does not need to expose any inbound web ports for devices to connect to my media server.
-2) I can monitor each device that seeks to connect to the media server by viewing my Tailscale console; Only those devices that I personally set up can access the server.
+1) My router does not need to expose any inbound web ports for users on other devices to connect to my media server.
+2) I can monitor not only each user via Jellyfin, but also each device that seeks to connect to the media server by viewing my Tailscale console; Only those devices that I personally set up can access the server.
 3) Reduced risk of break-in, complete entry monitoring for remote access.
 ---
 # Executive Summary:
