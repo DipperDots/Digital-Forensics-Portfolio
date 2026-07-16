@@ -4,15 +4,24 @@ Develop and maintain a personal media server to play personal media across 4 dev
 # Tools Used:
 - MakeMKV BETA
 - BD-RE Matshita BD-MLT Disc Drive
-- Caddy (for reverse proxy service)
-- Ducky DNS (for reverse proxy service)
-- Tailscale (for meshVPN service)
-- Jellyfin (Windows Server; Clients for WebOS, Windows, and Linux)
-- Seagate 2TB Barracuda HDD (internal HDD originally used for storage, later swapped out)
-- Inland 3.5" External SATA USB 3.0 HDD Enclosure (intended for Barracuda HDD) 
-- Seagate Expansion 4TB HDD (external HDD for storage)
-- Lenovo ideapad 5 laptop (battery removed, dedicated host of server)
-- Raspberry Pi 5 4GB (original host of server, later swapped out)
+- Caddy
+  - For reverse proxy service
+- Ducky DNS
+  - For reverse proxy service
+- Tailscale
+  - For mesh VPN service
+- Jellyfin
+  - Windows Server; Clients for WebOS, Windows, and Linux
+- Seagate 2TB Barracuda HDD
+  - Internal HDD originally used for storage, later swapped out
+- Inland 3.5" External SATA USB 3.0 HDD Enclosure
+  - Intended for Barracuda HDD
+- Seagate Expansion 4TB HDD
+  - External HDD used for storage
+- Lenovo ideapad 5 laptop
+  - Battery removed, dedicated host of server
+- Raspberry Pi 5 4GB
+  - Original host of server, later swapped out
 
 # Process:
 In order to run a Jellyfin server for a variety of devices - including desktops running Windows, an ROG Ally Z1E running a Bazzite distro, and an LG TV running WebOS, I originally planned to host the Jellyfin server on a dedicated Raspberry Pi 5.
