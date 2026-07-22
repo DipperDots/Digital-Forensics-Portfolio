@@ -21,7 +21,8 @@ Develop and maintain a personal media server to play media across multiple devic
 - Lenovo ideapad 5 laptop
   - Battery removed, dedicated host of server
 - Raspberry Pi 5 4GB
-  - Original host of server, later swapped out
+  - Original host of server, later swapped for laptop
+  - Became Exit Node within Tailscale
 
 # Process:
 In order to run a Jellyfin server for a variety of devices - including desktops running Windows, an ROG Ally Z1E running a Bazzite distro, and an LG TV running WebOS, I originally planned to host the Jellyfin server on a dedicated Raspberry Pi 5.
