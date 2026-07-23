@@ -63,6 +63,10 @@ Pivoting to Tailscale provided the following benefits:
 2) I can monitor not only each user via Jellyfin, but also each device that seeks to connect to the media server by viewing my Tailscale admin console; Only those devices that I personally set up can access the server.
 3) Reduced risk of break-in, complete entry monitoring for remote access.
 4) Allows me to repurpose the Raspberry Pi 5 (4GB) as an Exit Node. This allows me to route my server traffic through my home network on each device connecting to the server, which results in secure viewing on public networks.
+
+Pivoting to Tailscale introduced unique boons:
+1) Though viewing the server on the Local Network was uneffected, viewing the server from outside networks or mobile data can introduce latency.
+2) Some outside networks, such as guest Wi-Fi networks provided by universities or coffee shops, sometimes implement their own protections and thus block Tailscale connections from accessing the Exit Node and the server network.
 ---
 # Executive Summary:
 As a means to freshen up my tech-savvy nature and help my family at the same time, I decided to run a Jellyfin server with our personal media collection for a variety of devices, including desktops running Windows, an ROG Ally Z1E running a Bazzite distro, and an LG TV running WebOS. What began as an interesting idea very quickly became a daunting task thanks to multiple technological hiccups, from lengthy media conversion processes, Raspberry Pi OS quirks, and network protection configuration hurdles. The result was a fully functional media server that works astonishingly well with polish and technical compentency comparable to a name-brand streaming service that is protected by robust network security practices.
