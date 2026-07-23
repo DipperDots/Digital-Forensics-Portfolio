@@ -65,7 +65,7 @@ Pivoting to Tailscale provided the following benefits:
 4) Allows me to repurpose the Raspberry Pi 5 (4GB) as an Exit Node. This allows me to route my server traffic through my home network on each device connecting to the server, which results in secure viewing on public networks.
 
 Pivoting to Tailscale introduced the following downsides:
-1) Though viewing the server on the Local Network was uneffected, viewing the server from outside networks or mobile data can introduce latency.
+1) Though viewing the server on the Local Network was unaffected, viewing the server from outside networks or mobile data can introduce latency.
 2) Some outside networks, such as guest Wi-Fi networks provided by universities or coffee shops, sometimes implement their own protections and thus block Tailscale connections from accessing the Exit Node and the server network.
 ---
 # Executive Summary:
