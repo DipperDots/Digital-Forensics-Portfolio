@@ -58,10 +58,11 @@ Since access to this media server would not be shared with the public, why would
 Why not just utilize a mesh VPN through Tailscale so that only dedicated devices/users can access the server directly without having to make special Port Forwarding rules on my router?</p>
 
 ---
-Pivoting to Tailscale and its mesh VPN capabilites provided the following:
+Pivoting to Tailscale provided the following benefits:
 1) My router does not need to expose any inbound web ports for users on other devices to connect to my media server.
 2) I can monitor not only each user via Jellyfin, but also each device that seeks to connect to the media server by viewing my Tailscale console; Only those devices that I personally set up can access the server.
 3) Reduced risk of break-in, complete entry monitoring for remote access.
+4) Allowed me to repurpose the Raspberry Pi 5 (4GB) as an Exit Node. This allows me to route my server traffic through my home network whenever I use Tailscale on each device connecting to the server, which results in secure viewing on public networks.
 ---
 # Executive Summary:
-As a means to freshen up my tech-savvy nature and help my family at the same time, I decided to run a Jellyfin server with our personal media collection for a variety of devices, including desktops running Windows, an ROG Ally Z1E running a Bazzite distro, and an LG TV running WebOS. What began as an interesting idea very quickly became a daunting task thanks to multiple technological hiccups, from lengthy media conversion processes, Raspberry Pi OS quirks, and network protection configuration hurdles. The result was a fully functional media server that works astonishingly well with polish and technical compentency comparable to a name-brand streaming service that is protected by robust network security methods.
+As a means to freshen up my tech-savvy nature and help my family at the same time, I decided to run a Jellyfin server with our personal media collection for a variety of devices, including desktops running Windows, an ROG Ally Z1E running a Bazzite distro, and an LG TV running WebOS. What began as an interesting idea very quickly became a daunting task thanks to multiple technological hiccups, from lengthy media conversion processes, Raspberry Pi OS quirks, and network protection configuration hurdles. The result was a fully functional media server that works astonishingly well with polish and technical compentency comparable to a name-brand streaming service that is protected by robust network security practices.
