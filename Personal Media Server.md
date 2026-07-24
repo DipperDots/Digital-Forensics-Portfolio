@@ -63,6 +63,7 @@ Pivoting to Tailscale provided the following benefits:
 2) I can monitor not only each user via Jellyfin, but also each device that seeks to connect to the media server by viewing my Tailscale admin console; Only those devices that I personally set up can access the server.
 3) Reduced risk of break-in, complete entry monitoring for remote access.
 4) Allows me to repurpose the Raspberry Pi 5 (4GB) as an Exit Node. This allows me to route my server traffic through my home network on each device connecting to the server, which results in secure viewing on public networks.
+5) The ability to easily transfer files from each device within the list of network devices. No more manual transfers via USB/microSD or reliance on cloud storage services.
 
 Pivoting to Tailscale introduced the following downsides:
 1) Though viewing the server on the Local Network was unaffected, viewing the server from outside networks or mobile data can introduce latency.
