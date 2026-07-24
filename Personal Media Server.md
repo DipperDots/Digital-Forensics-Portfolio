@@ -66,7 +66,7 @@ Pivoting to Tailscale provided the following benefits:
 
 Pivoting to Tailscale introduced the following downsides:
 1) Though viewing the server on the Local Network was unaffected, viewing the server from outside networks or mobile data can introduce latency.
-2) Outside networks, such as guest Wi-Fi networks provided by universities or coffee shops, sometimes implement their own protections and thus block Tailscale connections from accessing the Exit Node and the server network.
+2) Outside networks, such as guest Wi-Fi networks provided by universities or coffee shops, sometimes implement their own protections - namely blocking UDP traffic, non-standard outbound ports, or Tailscale's DERP servers or HTTPS relay domains specifically, thus preventing Tailscale connections from accessing the Exit Node and the server network.
 ---
 # Executive Summary:
 As a means to freshen up my tech-savvy nature and help my family at the same time, I decided to run a Jellyfin server with our personal media collection for a variety of devices, including desktops running Windows, an ROG Ally Z1E running a Bazzite distro, and an LG TV running WebOS. What began as an interesting idea very quickly became a daunting task thanks to multiple technological hiccups, from lengthy media conversion processes, Raspberry Pi OS quirks, and network protection configuration hurdles. The result was a fully functional media server that works astonishingly well with polish and technical compentency comparable to a name-brand streaming service that is protected by robust network security practices.
